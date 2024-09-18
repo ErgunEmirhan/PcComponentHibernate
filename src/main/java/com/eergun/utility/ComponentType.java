@@ -1,4 +1,5 @@
 package com.eergun.utility;
 
 public enum ComponentType {
+	CPU,RAM,HARDDISK,MAINBOARD,POWERSUPPLY,GPU,MONITOR,WEBCAM,MOUSE,KEYBOARD,MICROPHONE,SPEAKER
 }

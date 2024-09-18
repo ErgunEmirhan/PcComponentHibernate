@@ -1,4 +1,10 @@
 package com.eergun.repository;
 
-public class ComponentRepository {
+import com.eergun.entity.Component;
+
+public class ComponentRepository extends RepositoryManager<Component, Long> {
+	
+	public ComponentRepository() {
+		super(Component.class);
+	}
 }
